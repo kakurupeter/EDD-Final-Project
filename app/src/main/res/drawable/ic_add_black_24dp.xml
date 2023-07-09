@@ -1,0 +1,38 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state -->
+    <item>
+        <shape>
+            <solid android:color="#FF0000" /> <!-- Red color -->
+        </shape>
+    </item>
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#00FF00" /> <!-- Green color -->
+        </shape>
+    </item>
+
+    <!-- Focused state -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#0000FF" /> <!-- Blue color -->
+        </shape>
+    </item>
+
+    <!-- Selected state -->
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="#FFFF00" /> <!-- Yellow color -->
+        </shape>
+    </item>
+
+    <!-- Add more states and corresponding shapes with colors as needed -->
+
+    <!-- Default fallback shape and color -->
+    <item>
+        <shape>
+            <solid android:color="#FF0000" /> <!-- Red color -->
+        </shape>
+    </item>
+</selector>
